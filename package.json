@@ -1,15 +1,13 @@
 {
-  "name": "monomibot",
-  "version": "1.0.0",
-  "description": "Bot de Dangaronpa",
+  "name": "Monomibot",
+  "description": "Test",
+  "version": "0.0.0",
   "main": "bot.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node bot.js"
   },
-  "author": "Dulo",
-  "license": "ISC",
   "dependencies": {
-    "discord.js": "^11.3.0"
-  },
-  "devDependencies": {}
+    "discord.js": "11.1.0",
+    "request": "2.81.0"
+  }
 }
