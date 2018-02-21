@@ -2,7 +2,7 @@
   "name": "monomibot",
   "version": "1.0.0",
   "description": "Bot de Dangaronpa",
-  "main": "index.js",
+  "main": "bot.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
