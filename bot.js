@@ -99,4 +99,4 @@ client.on('message', (message) =>{
 			 message.channel.sendMessage('Escribe el nombre o apellido del personaje empezando con mayusculas. Ej: !Sonia');
 	}
 });
-client.login(process.env.NDE1NTUwNjU4Mzg1NTQzMTc5.DW3jcw.e-gBpzyYyEkRSvfD-DeeBDVJCnA);
+client.login(process.env.BOT_TOKEN);
