@@ -1,8 +1,8 @@
 console.log('Upupupupupu');
 const Discord = require('discord.js');
-const bot = new Discord.Client();
+const client = new Discord.Client();
 
-bot.on('message', (message) =>{
+client.on('message', (message) =>{
 	if(message.content == '!Togami') {
 			 message.channel.sendMessage('Estudiante Heredero Definitivo');
 	}
@@ -100,4 +100,4 @@ bot.on('message', (message) =>{
 			 message.channel.sendMessage('Escribe el nombre o apellido del personaje empezando con mayusculas. Ej: !Sonia');
 	}
 });
-bot.login('NDE1NTUwNjU4Mzg1NTQzMTc5.DW3jcw.e-gBpzyYyEkRSvfD-DeeBDVJCnA');
+client.login(process.env.NDE1NTUwNjU4Mzg1NTQzMTc5.DW3jcw.e-gBpzyYyEkRSvfD-DeeBDVJCnA);
