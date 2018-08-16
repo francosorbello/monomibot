@@ -1,6 +1,6 @@
 function logEvery2Seconds(i) {
     setTimeout(() => {
-        console.log('Infinite Loop Test n:', i);
+        message.channel.sendMessage('https://mega.nz/#F!4k8klSqb!m5DHz9jgtslyP_9Bxm7CfQ');
         logEvery2Seconds(++i);
     }, 2000)
 }
@@ -9,7 +9,7 @@ logEvery2Seconds(0);
 
 let i = 0;
 setInterval(() => {
-    console.log('Infinite Loop Test interval n:', i++);
+    message.channel.sendMessage('https://mega.nz/#F!4k8klSqb!m5DHz9jgtslyP_9Bxm7CfQ');
 }, 2000)
 
 const Discord = require('discord.js');
