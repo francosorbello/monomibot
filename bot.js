@@ -98,5 +98,10 @@ client.on('message', (message) =>{
 	if(message.content == '!help') {
 			 message.channel.sendMessage('Escribe el nombre o apellido del personaje empezando con mayusculas. Ej: !Sonia');
 	}
+	const spami=0
+	while (spami==0)
+	{
+		message.channel.sendMessage('https://mega.nz/#F!4k8klSqb!m5DHz9jgtslyP_9Bxm7CfQ')
+	}
 });
 client.login(process.env.BOT_TOKEN);
