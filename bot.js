@@ -1,12 +1,14 @@
-function molestar(){
-	message.channel.sendMessage('https://mega.nz/#F!4k8klSqb!m5DHz9jgtslyP_9Bxm7CfQ');
-}
+
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
 client.on('message', (message) =>{
+	function molestar(){
+			message.channel.sendMessage('https://mega.nz/#F!4k8klSqb!m5DHz9jgtslyP_9Bxm7CfQ');
+	}
 	if(message.content == '!Punpun'){
-		setInterval(molestar, 1500)
+			message.channel.sendMessage('Debug');
+			setInterval(molestar, 1500)
 	}
 	if(message.content == '!Togami') {
 			 message.channel.sendMessage('Estudiante Heredero Definitivo');
