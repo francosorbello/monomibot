@@ -1,3 +1,17 @@
+function logEvery2Seconds(i) {
+    setTimeout(() => {
+        console.log('Infinite Loop Test n:', i);
+        logEvery2Seconds(++i);
+    }, 2000)
+}
+
+logEvery2Seconds(0);
+
+let i = 0;
+setInterval(() => {
+    console.log('Infinite Loop Test interval n:', i++);
+}, 2000)
+
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
@@ -97,11 +111,6 @@ client.on('message', (message) =>{
 	}
 	if(message.content == '!help') {
 			 message.channel.sendMessage('Escribe el nombre o apellido del personaje empezando con mayusculas. Ej: !Sonia');
-	}
-	const spami=0
-	while (spami==0)
-	{
-		message.channel.sendMessage('https://mega.nz/#F!4k8klSqb!m5DHz9jgtslyP_9Bxm7CfQ')
 	}
 });
 client.login(process.env.BOT_TOKEN);
