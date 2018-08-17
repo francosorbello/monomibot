@@ -7,7 +7,7 @@ client.on('message', (message) =>{
 			message.channel.sendMessage('Niko empezá el Punpun.');
 	}
 	if(message.content == '!Punpun'){
-			setInterval(molestar, 30000)
+			setInterval(molestar, 1000)
 	}
 	if(message.content == '!Togami') {
 			 message.channel.sendMessage('Estudiante Heredero Definitivo');
