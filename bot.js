@@ -4,11 +4,10 @@ const client = new Discord.Client();
 
 client.on('message', (message) =>{
 	function molestar(){
-			message.channel.sendMessage('https://mega.nz/#F!4k8klSqb!m5DHz9jgtslyP_9Bxm7CfQ');
+			message.channel.sendMessage('Niko empezá el Punpun.');
 	}
 	if(message.content == '!Punpun'){
-			message.channel.sendMessage('Debug');
-			setInterval(molestar, 60000)
+			setInterval(molestar, 30000)
 	}
 	if(message.content == '!Togami') {
 			 message.channel.sendMessage('Estudiante Heredero Definitivo');
