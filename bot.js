@@ -4,10 +4,15 @@ const client = new Discord.Client();
 
 client.on('message', (message) =>{
 	function molestar(){
-			message.channel.sendMessage('Niko empezá el Punpun.');
+			message.channel.sendMessage('Danna empezá el Punpun.');
 	}
 	if(message.content == '!Punpun'){
 			setInterval(molestar, 1000)
+	}
+	
+	
+	if(message.content == '!Prueba') {
+			 message.channel.sendMessage('/tts puto el que escucha');
 	}
 	if(message.content == '!Togami') {
 			 message.channel.sendMessage('Estudiante Heredero Definitivo');
