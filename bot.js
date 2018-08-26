@@ -6,7 +6,7 @@ client.on('message', (message) =>{
 	function molestar(){
 			message.channel.sendMessage('Danna empezá el Punpun.');
 			if(message.content == '!stop'){
-				break;
+				return;
 			}
 	}
 	if(message.content == '!Punpun'){
