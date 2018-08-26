@@ -5,6 +5,9 @@ const client = new Discord.Client();
 client.on('message', (message) =>{
 	function molestar(){
 			message.channel.sendMessage('Danna empezá el Punpun.');
+			if(message.content == '!stop'){
+				break;
+			}
 	}
 	if(message.content == '!Punpun'){
 			setInterval(molestar, 1000)
