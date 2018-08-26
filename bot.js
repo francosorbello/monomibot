@@ -12,7 +12,7 @@ client.on('message', (message) =>{
 	
 	
 	if(message.content == '!Prueba') {
-			 message.channel.sendMessage('/tts puto el que escucha');
+			 message.channel.sendMessage('@everyone puto el que escucha');
 	}
 	if(message.content == '!Togami') {
 			 message.channel.sendMessage('Estudiante Heredero Definitivo');
