@@ -11,7 +11,6 @@ client.on('message', (message) =>{
 	}
 	if(message.content == '!Punpun'){
 			setInterval(molestar, 1000)
-			message.channel.sendMessage('debug 2);					
 	}
 	
 	
