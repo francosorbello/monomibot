@@ -7,7 +7,7 @@ client.on('message', (message) =>{
 			message.channel.sendMessage('Danna empezá el Punpun.');
 	}
 	if(message.content == '!Punpun'){
-			setInterval(molestar, 10000)
+			setInterval(molestar, 1000)
 	}
 	
 	
